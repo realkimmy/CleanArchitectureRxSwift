@@ -10,9 +10,13 @@ def rx_cocoa
     pod 'RxCocoa', '~> 6.2.0'
 end
 
+def query_kit
+  pod 'QueryKit', '~> 0.14.1'
+end
+
 def test_pods
-    pod 'RxTest'
-    pod 'RxBlocking'
+    pod 'RxTest', '~> 6.2.0'
+    pod 'RxBlocking', '~> 6.2.0'
     pod 'Nimble'
 end
 
@@ -22,7 +26,7 @@ target 'CleanArchitectureRxSwift' do
   use_frameworks!
   rx_cocoa
   rx_swift
-  pod 'QueryKit'
+  query_kit
   target 'CleanArchitectureRxSwiftTests' do
     inherit! :search_paths
     test_pods
@@ -34,7 +38,7 @@ target 'CoreDataPlatform' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
   rx_swift
-  pod 'QueryKit'
+  query_kit
   target 'CoreDataPlatformTests' do
     inherit! :search_paths
     test_pods
@@ -58,8 +62,8 @@ target 'NetworkPlatform' do
     # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
     use_frameworks!
     rx_swift
-    pod 'Alamofire'
-    pod 'RxAlamofire'
+    pod 'Alamofire', '~> 5.4.4'
+    pod 'RxAlamofire', '~> 6.1.0'
 
     target 'NetworkPlatformTests' do
         inherit! :search_paths
@@ -72,10 +76,10 @@ target 'RealmPlatform' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
   rx_swift
-  pod 'RxRealm'
-  pod 'QueryKit'
-  pod 'RealmSwift'
-  pod 'Realm'
+  query_kit
+  pod 'RxRealm', '~> 5.0.4'
+  pod 'RealmSwift', '~> 10.22.0'
+  pod 'Realm', '~> 10.22.0'
 
   target 'RealmPlatformTests' do
     inherit! :search_paths

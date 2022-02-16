@@ -56,6 +56,11 @@
 		25897BFB1E58CB8F00D3563C /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25897BED1E58CB8E00D3563C /* Reusable.swift */; };
 		25897BFC1E58CB8F00D3563C /* ViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25897BEF1E58CB8E00D3563C /* ViewModelType.swift */; };
 		2DEEE5268D97F40515D1C542 /* Pods_DomainTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5764703F1E249BEDFC31014 /* Pods_DomainTests.framework */; };
+		3898C45F66919EAF03674B56 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 3898C937FBBEC84459445437 /* .gitignore */; };
+		3898C56B51AAE485C526D056 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 3898C86F5013E5DAF1D9584D /* LICENSE */; };
+		3898C8A97E71C1611ACFD32B /* .gitattributes in Resources */ = {isa = PBXBuildFile; fileRef = 3898C8AEF0700691BAFD7BA6 /* .gitattributes */; };
+		3898C8B9D97182B16A8503C7 /* .ruby-version in Resources */ = {isa = PBXBuildFile; fileRef = 3898C5D6B777F36BE4131050 /* .ruby-version */; };
+		3898C9FB2250EBB744508905 /* .swift-version in Resources */ = {isa = PBXBuildFile; fileRef = 3898C1EBDC0CAA5FE3388656 /* .swift-version */; };
 		4171B21201FC20FD72A143D0 /* Pods_CoreDataPlatformTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C03758DD874CBFB48A52CE5 /* Pods_CoreDataPlatformTests.framework */; };
 		514BA3A92A644232F50ED1A8 /* Pods_Domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 771F87FDB28A5E6EC32A9841 /* Pods_Domain.framework */; };
 		515F9083DB52FEDFEE97A5E6 /* PostsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515F93CEB3B316E01CDACEA7 /* PostsViewModel.swift */; };
@@ -321,6 +326,11 @@
 		2BBB44DCB902E459F05D68B0 /* Pods-CoreDataPlatformTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreDataPlatformTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoreDataPlatformTests/Pods-CoreDataPlatformTests.release.xcconfig"; sourceTree = "<group>"; };
 		2C03758DD874CBFB48A52CE5 /* Pods_CoreDataPlatformTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoreDataPlatformTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3058945350D99DC786F3CDC3 /* Pods-CoreDataPlatform.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreDataPlatform.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoreDataPlatform/Pods-CoreDataPlatform.debug.xcconfig"; sourceTree = "<group>"; };
+		3898C1EBDC0CAA5FE3388656 /* .swift-version */ = {isa = PBXFileReference; lastKnownFileType = "file.swift-version"; path = ".swift-version"; sourceTree = "<group>"; };
+		3898C5D6B777F36BE4131050 /* .ruby-version */ = {isa = PBXFileReference; lastKnownFileType = "file.ruby-version"; path = ".ruby-version"; sourceTree = "<group>"; };
+		3898C86F5013E5DAF1D9584D /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		3898C8AEF0700691BAFD7BA6 /* .gitattributes */ = {isa = PBXFileReference; lastKnownFileType = file.gitattributes; path = .gitattributes; sourceTree = "<group>"; };
+		3898C937FBBEC84459445437 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = file.gitignore; path = .gitignore; sourceTree = "<group>"; };
 		3D9EA43A0DD207CAFEADD07C /* Pods-CleanArchitectureRxSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleanArchitectureRxSwiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CleanArchitectureRxSwiftTests/Pods-CleanArchitectureRxSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
 		3F5B77FEC1EA2332323A0EB9 /* Pods-CleanArchitectureRxSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleanArchitectureRxSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-CleanArchitectureRxSwift/Pods-CleanArchitectureRxSwift.release.xcconfig"; sourceTree = "<group>"; };
 		426939EA03F41A859CEFCA16 /* Pods-NetworkPlatformTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkPlatformTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NetworkPlatformTests/Pods-NetworkPlatformTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -576,6 +586,11 @@
 				25897B011E58BD9100D3563C /* Products */,
 				25897B6E1E58BF4600D3563C /* RealmPlatform */,
 				25897B7B1E58BF4600D3563C /* RealmPlatformTests */,
+				3898C937FBBEC84459445437 /* .gitignore */,
+				3898C8AEF0700691BAFD7BA6 /* .gitattributes */,
+				3898C5D6B777F36BE4131050 /* .ruby-version */,
+				3898C1EBDC0CAA5FE3388656 /* .swift-version */,
+				3898C86F5013E5DAF1D9584D /* LICENSE */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1396,6 +1411,11 @@
 				25897B0E1E58BD9100D3563C /* LaunchScreen.storyboard in Resources */,
 				25897B0B1E58BD9100D3563C /* Assets.xcassets in Resources */,
 				25897B091E58BD9100D3563C /* Main.storyboard in Resources */,
+				3898C45F66919EAF03674B56 /* .gitignore in Resources */,
+				3898C8A97E71C1611ACFD32B /* .gitattributes in Resources */,
+				3898C8B9D97182B16A8503C7 /* .ruby-version in Resources */,
+				3898C9FB2250EBB744508905 /* .swift-version in Resources */,
+				3898C56B51AAE485C526D056 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
